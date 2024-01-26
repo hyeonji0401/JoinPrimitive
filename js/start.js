@@ -23,7 +23,7 @@ function setResult(){
     imgDiv.appendChild(resultImg);
 
     const resultDesc = document.querySelector('.resultDesc');
-    resultDesc.innerHTML=infoList[point].desc;
+    resultDesc.innerHTML=infoList[point].desc.replace(/\n/g, '<br>');
 }
 
 function goResult(){

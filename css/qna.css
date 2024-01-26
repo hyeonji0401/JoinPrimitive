@@ -7,16 +7,26 @@
     text-align: center;
     border-radius: 20px;
     font-size: 20px;
-    width: 80%;
+    width: 90%;
 }
 
 .answerList{
     background-color: whitesmoke;
     border-radius: 20px;
     display: block;
-    width: 80%;
+    width: 90%;
     border: 0px;
     font-size: 15px;
+}
+
+@media (max-width: 600px) {
+    .qBox {
+        font-size: 15px;
+    }
+
+    .answerList {
+        font-size: 12px;
+    }
 }
 
 .answerList:hover, .answerList:focus{
@@ -26,7 +36,7 @@
 
 .status{
     height: 20px;
-    width: 80%;
+    width: 90%;
     background-color: white;
     border-radius: 20px;
 }

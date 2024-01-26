@@ -1,7 +1,7 @@
 #result{
     display: none;
     background-color: whitesmoke;
-    width: 80%;
+    width: 90%;
     text-align: center;
     border-radius: 20px;
 }
@@ -11,5 +11,23 @@
 }
 
 .resultDesc{
-    font-size: 22px;
+    font-size: 20px;
+}
+
+#codeAndResultSources{
+    font-size: 10px;
+}
+
+@media (max-width: 600px) {
+    .resultname {
+        font-size: 20px;
+    }
+
+    .resultDesc {
+        font-size: 14px;
+    }
+
+    #codeAndResultSources{
+        font-size: 8px;
+    }
 }

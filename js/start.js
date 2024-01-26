@@ -51,7 +51,7 @@ function addAnswer(answerText, qIdx, idx){
     answer.classList.add('fadeIn');
 
     a.appendChild(answer);
-    answer.innerHTML = answerText;
+    answer.innerHTML = answerText.replace(/\n/g, '<br>');
 
     answer.addEventListener("click",function(){
         var children = document.querySelectorAll('.answerList');

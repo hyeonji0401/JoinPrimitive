@@ -4,21 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="PandaCoding">
-    <meta name="keywords" content="십이간지 연애유형">
-    <meta name="description" content="십이간지 연애유형">
+    <meta name="keywords" content="PRIMITIVIE 테스트">
+    <meta name="description" content="PRIMITIVIE 테스트">
 
     <!-- sns share -->
     <meta property="og:url" content="https://joinprimitive.netlify.app"/>
-    <meta property="og:title" content="십이간지 연애유형" />
+    <meta property="og:title" content="PRIMITIVIE 테스트" />
     <meta property="og:type" content="website" />
     <meta property="og:image" content="img/share.png" />
-    <meta property="og:description" content="십이간지로 알아보는 연애유형" />
+    <meta property="og:description" content="나는 PRIMITIVE동아리와 맞는 사람일까?" />
 
-    <!--favicon-->
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" href="img/favicon.ico" />
-
-    <title>십이간지 연애유형</title>
+    <title>PRIMITIVIE 테스트</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100;400&display=swap" rel="stylesheet">
@@ -32,16 +28,19 @@
 <body>
     <div class="container">
         <section id="main" class="mx-auto my-5 py-5 px-3">
-            <h1 class="pt-5">십이간지로 알아보는 연애유형</h1>
+            <h1 class="pt-5">나는 PRIMITIVE동아리와 맞는 사람일까?</h1>
             <div class="col-lg-6 col-md-8 col-sm-10 col-12 mx-auto">
                 <img src="./img/main.png" alt="mainImage" class="img-fluid">
             </div>
             <p>
-                나만의 MBTI사이트입니다<br>
-                아래 시작버튼을 눌러 시작해주십시오
+                간단한 테스트를 통해<br>PRIMITIVE와 잘맞을지 확인해보세요!<br>
+                아래 시작버튼을 눌러 시작해보세요
             </p>
             <button type="button" class="btn btn-danger mt-3" 
             onclick="js:begin()">시작하기</button>
+            <br>
+            <button type="button" class="btn btn-warning mt-3" 
+            onclick="">바로 PRIMITIVE 입부 신청하러 가기!</button>
         </section>
         <section id="qna">
             <div class="status mx-auto mt-5">
@@ -49,10 +48,10 @@
 
                 </div>
             </div>
-            <div class="qBox my-5 py-3 mx-auto">
+            <div class="qBox my-5 py-3 px-3 mx-auto">
 
             </div>
-            <div class="answerBox ">
+            <div class="answerBox px-3">
 
             </div>
         </section>
@@ -67,7 +66,16 @@
             <div class="resultDesc">
 
             </div>
-            <a href="" download="테스트">테스트 문서 다운로드</a>
+            <p class="pt-5">당신은 바로 PRIMITIVE가 찾던 인재입니다!!!</p>
+            <button type="button" class="btn btn-warning" 
+            onclick=""> PRIMITIVE 입부 신청하러 가기! </button>
+            <div id="codeAndResultSources" class="pt-5">
+                <br>
+                <br>
+                출처<br>
+                (코드 참조)https://github.com/nani6765/MyMBTI<br>
+                (유형별 결과 참조)나무위키 MBTI별 특징 참조하여 재구성함
+            </div>
         </section>
         <script src="./js/data.js" charset="UTF-8"></script>
         <script src="./js/start.js" charset="UTF-8"></script>

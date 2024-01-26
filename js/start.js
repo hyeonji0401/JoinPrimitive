@@ -80,7 +80,7 @@ function goNext(qIdx){
         goResult();
     }
     var q = document.querySelector('.qBox');
-    q.innerHTML = qnaList[qIdx].q;
+    q.innerHTML = qnaList[qIdx].q.replace(/\n/g, '<br>');
     for(let i in qnaList[qIdx].a){
         addAnswer(qnaList[qIdx].a[i].answer, qIdx, i);
     }

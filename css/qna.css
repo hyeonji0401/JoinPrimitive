@@ -3,7 +3,7 @@
 }
 
 .qBox{
-    background-color: whitesmoke;
+    background-color: white;
     text-align: center;
     border-radius: 20px;
     font-size: 20px;
@@ -11,7 +11,7 @@
 }
 
 .answerList{
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 20px;
     display: block;
     width: 90%;
@@ -31,13 +31,13 @@
 
 .answerList:hover, .answerList:focus{
     background-color: #1d3d94;
-    color: whitesmoke;
+    color: white;
 }
 
 .status{
     height: 20px;
     width: 90%;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 20px;
 }
 

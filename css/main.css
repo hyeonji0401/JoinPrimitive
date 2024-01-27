@@ -1,5 +1,5 @@
 #main{
-    background-color: whitesmoke;
+    background-color: white;
     width: 90%;
     text-align: center;
     border-radius: 20px;
@@ -9,8 +9,16 @@ p{
     font-size: 22px;
 }
 
+#codeAndResultSources{
+    font-size: 10px;
+}
+
 @media (max-width: 600px) {
     p {
         font-size: 15px; /* 작은 화면에 대한 폰트 크기 조정 */
+    }
+
+    #codeAndResultSources{
+        font-size: 8px;
     }
 }

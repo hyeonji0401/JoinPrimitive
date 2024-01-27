@@ -30,7 +30,7 @@
 }
 
 .answerList:hover, .answerList:focus{
-    background-color: rgb(93, 112, 195);
+    background-color: #1d3d94;
     color: whitesmoke;
 }
 

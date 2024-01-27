@@ -24,6 +24,9 @@ function setResult(){
 
     const resultDesc = document.querySelector('.resultDesc');
     resultDesc.innerHTML=infoList[point].desc.replace(/\n/g, '<br>');
+
+    const resultType = document.querySelector('.resultType');
+    resultType.innerHTML=infoList[point].name;
 }
 
 function goResult(){

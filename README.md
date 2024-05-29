@@ -4,7 +4,10 @@
 
 배포
 
-[GITHUB PAGES]("https://hyeonji0401.github.io/JoinPrimitive/")
+GITHUB PAGE
+
+
+[바로가기]("https://hyeonji0401.github.io/JoinPrimitive/")
 
 
 기술

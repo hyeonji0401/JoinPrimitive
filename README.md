@@ -3,7 +3,8 @@
 동아리 부원들읭 성격 기반으로 제작한 MBTI 검사 간이 테스트입니다
 
 배포
-GITHUB PAGES <a href="
+
+[GITHUB PAGES]("https://hyeonji0401.github.io/JoinPrimitive/")
 
 
 기술
